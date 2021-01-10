@@ -1,0 +1,38 @@
+{
+  "name": "WebpackPOC",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && webpack --bail --progress --profile",
+    "server": "webpack serve --history-api-fallback --inline --progress --open --watch",
+    "start": "npm run server"
+  },
+  "keywords": [],
+  "author": "Dhanushka Athukorala",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.29",
+    "angular": "^1.8.2",
+    "angular-animate": "^1.8.2",
+    "angular-ui-bootstrap": "^2.5.6",
+    "angular-ui-router": "^1.0.29",
+    "bootstrap": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.8.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.32.2",
+    "sass-loader": "^10.1.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.12.2",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  }
+}

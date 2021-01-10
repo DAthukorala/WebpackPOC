@@ -1,0 +1,10 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Link</th>
+    </tr>
+    <tr ng-repeat="data in ctrl.getData()">
+        <td id="{{data.id}}">{{data.name}}</td>
+        <td ng-click="ctrl.open(data.text)">open</td>
+    </tr>
+</table>

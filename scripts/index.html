@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="mainApplication">
+
+<head>
+    <title>Webpack POC</title>
+</head>
+
+<body>
+    <div class="sidenav">
+        <a ui-sref="welcome" ui-sref-active="active">Welcome</a>
+        <a ui-sref="patients" ui-sref-active="active">Patient Information</a>
+        <a ui-sref="locations" ui-sref-active="active">Location Information</a>
+      </div>
+      <div class="main">
+        <ui-view></ui-view>
+      </div>
+</body>
+
+</html>

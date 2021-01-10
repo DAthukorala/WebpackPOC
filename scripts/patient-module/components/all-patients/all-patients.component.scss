@@ -1,0 +1,14 @@
+.patientsContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.patients {
+    width: 30%;
+
+    ul {
+        list-style: none;
+        padding: 0.1em 0;
+    }
+}

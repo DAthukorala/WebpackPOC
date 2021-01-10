@@ -1,0 +1,21 @@
+.locationsContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.locations {
+    width: 100%;
+
+    ul {
+        list-style: none;
+        padding: 0.1em 0;
+
+        li {
+            border-style: solid;
+            border-color: rgb(179, 71, 21);
+            margin-bottom: 5px;
+            background-color: rgb(177, 186, 218)
+        }
+    }
+}

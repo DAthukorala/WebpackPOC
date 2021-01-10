@@ -1,0 +1,13 @@
+<div>
+    <label>Settings Type</label>
+    <select id="selectType" ng-model="ctrl.selectedType" ng-change="ctrl.filterSettings()">
+        <option selected="selected" value="">--select type--</option>
+        <option ng-repeat="settingType in ctrl.settingTypes" value="{{settingType.id}}">{{settingType.name}}</option>
+    </select>
+
+    <br />
+    <hr /><br />
+
+    <settings-viewer data="ctrl.selectedSettings" hide-field="ctrl.hideField" text-field="ctrl.textField"
+        link-field="ctrl.linkField"></settings-viewer>
+</div>
